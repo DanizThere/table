@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang=ru>
+    <head>
+        <meta charset="utf-8">
+        <title>Таблицы</title>
+        <link href="css/table.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>таблица</h1>
+        <table>
+            <colgroup>
+                <col style="background: orange" span="3">
+            </colgroup>
+            <tr>
+                <th>что-то</th>
+                <th>что-то х2</th>
+                <th>что-то х3</th>
+            </tr>
+            <tr>
+                <td colspan="2">что-то</td>
+                <!--<td>что-то х2</td>-->
+                <td rowspan="2">что-то х3</td>
+            </tr>
+            <tr>
+                <td>что-то</td>
+                <td>что-то х2</td>
+                <!--<td>что-то х3</td>-->
+            </tr>
+        </table>
+    </body>
+</html>
